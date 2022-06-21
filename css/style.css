@@ -1,0 +1,60 @@
+.input-name {
+    height: 30px;
+    width: 250px;
+    text-align: center;
+}
+
+.botao {
+    text-decoration: none;
+    display: block;
+    padding: 15px 25px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(8, 108, 185);
+    width: max-content;
+    margin: 12px;
+    border-radius: 5px;
+}
+
+.botao-filme {
+    background-color: rgb(235, 52, 52);
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+}
+
+.alternativa {
+    display: block;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.quiz-input {
+    display: none;
+}
+
+.quiz-input:checked + .alternativa {
+    border: 1px solid red;
+}
+
+.botao-quiz {
+    margin: 0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.active {
+    border: 1px solid rgb(11, 194, 51)!important;
+}
+
+.voltar {
+    background-color: rgb(187, 17, 17);
+    color: #fff;
+}
