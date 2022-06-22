@@ -1,60 +1,112 @@
-.input-name {
+body {
+    background-image: url(https://img.freepik.com/fotos-gratis/claquete-perto-de-pipoca-saborosa_23-2147803977.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .input-name {
     height: 30px;
     width: 250px;
     text-align: center;
-}
-
-.botao {
+  }
+  
+  .logo {
+    padding-block: 10px 10px;
+    font-size: 30px;
+    color: #000;
+    font: 'Candara', Arial, sans-serif;
+  }
+  
+  .botao {
     text-decoration: none;
     display: block;
     padding: 15px 25px;
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
     background-color: rgb(8, 108, 185);
     width: max-content;
     margin: 12px;
-    border-radius: 5px;
-}
-
-.botao-filme {
-    background-color: rgb(235, 52, 52);
-}
-
-.center {
+    border-radius: 18px;
+  }
+  
+  .botao-filme {
+    background-image: url("../img/vingadores.jpg");
+    padding: 45px 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .botao-serie {
+    background-image: url("../img/stranger_things.jpg");
+    padding: 45px 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 96vh;
-}
-
-.alternativa {
+  }
+  
+  .alternativa {
     display: block;
     padding: 15px 20px;
     border: 1px solid #ccc;
     margin-bottom: 10px;
-}
-
-.quiz-input {
+  }
+  
+  .quiz-input {
     display: none;
-}
-
-.quiz-input:checked + .alternativa {
+  }
+  
+  .quiz-input:checked + .alternativa {
     border: 1px solid red;
-}
-
-.botao-quiz {
+  }
+  
+  .botao-quiz {
     margin: 0;
     font-size: 16px;
     border: none;
     cursor: pointer;
-}
-
-.active {
+  }
+  
+  .active {
     border: 1px solid rgb(11, 194, 51)!important;
-}
-
-.voltar {
+  }
+  
+  .voltar {
     background-color: rgb(187, 17, 17);
     color: #fff;
-}
+  }
+  
+  .quiz legend {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .alternativa {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #saudacao {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .center h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+  }
+
+  .input-name {
+    font-size: 25px;
+  }

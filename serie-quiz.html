@@ -1,66 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Quiz Serie</title>
-</head>
-<body>
+  </head>
+  <body>
     <h3 id="saudacao"></h3>
+    <h1>Perguntas Série Stranger Things</h1>
     <div class="quiz">
-        <fieldset>
-            <legend>Questão 1. O que acha?</legend>
+      <fieldset>
+        <legend>Questão 1.Qual o nome do professor de Biologia dos garotos ? </legend>
 
-            <input class="quiz-input" type="radio" id="q1_alt1" name="q1">
-            <label class="alternativa" for="q1_alt1">1 Alternativa</label>
-
-            <input class="quiz-input" type="radio" id="q1_alt2" name="q1">
-            <label class="alternativa" for="q1_alt2">2 Alternativa</label>
-
-            <input class="quiz-input" type="radio" id="q1_alt3" name="q1">
-            <label class="alternativa" for="q1_alt3">3 Alternativa</label>
-
-            <button class="botao botao-quiz" data-resposta="3">RESPONDER</button>
-        </fieldset>
+        <label><input class="questao1" type="radio" id="correta" name="q1">A) Mr Wheeler
+        </label><br>
+        <label><input class="questao1" type="radio" name="q1">B) Mr kenny</label><br>
+        <label><input class="questao1" type="radio" name="q1">C) Mr Clarke</label><br>
+      </fieldset>
     </div>
     <div class="quiz">
-        <fieldset>
-            <legend>Questão 2 .O que acha?</legend>
+      <fieldset>
+        <legend>Questão 2 .Na escola ,onde Nancy manda Steve encontrá-la ?</legend>
 
-            <input class="quiz-input" type="radio" id="q2_alt1" name="q2">
-            <label class="alternativa" for="q2_alt1">1 Alternativa</label>
-        
-            <input class="quiz-input" type="radio" id="q2_alt2" name="q2">
-            <label class="alternativa" for="q2_alt2">2 Alternativa</label>
-       
-            
-            <input class="quiz-input" type="radio" id="q2_alt3" name="q2">
-            <label class="alternativa" for="q2_alt3">3 Alternativa</label>
-
-            <button class="botao botao-quiz" data-resposta="1">RESPONDER</button>
-        </fieldset>
+        <label></label><input class="questao2" type="radio" id="correta" name="q2">A) No Banheiro 
+        </label><br>
+        <label><input class="questao2" type="radio" name="q2">B) Na Biblioteca</label><br>
+        <label><input class="questao2" type="radio" name="q2">C) Na Quadra</label><br>
+      </fieldset>
     </div>
     <div class="quiz">
-        <fieldset>
-            <legend>Questão 3 .O que acha?</legend>
+      <fieldset>
+        <legend>Questão 3.Para provar que ele esta viva ,como Eleven faz contato com Will?.</legend>
 
-            <input class="quiz-input" type="radio" id="q3_alt1" name="q3">
-            <label class="alternativa" for="q3_alt1">1 Alternativa</label>
-        
-            <input class="quiz-input" type="radio" id="q3_alt2" name="q3">
-            <label class="alternativa" for="q3_alt2">2 Alternativa</label>
-       
-            
-            <input class="quiz-input" type="radio" id="q3_alt3" name="q3">
-            <label class="alternativa" for="q3_alt3">3 Alternativa</label>
+        <label><input class="questao3" type="radio" id="correta" name="q3">A) Pelas luzes
+        </label><br>
+        <label><input class="questao3" type="radio" name="q3">B) Pelo Walkie Tokie</label><br>
+        <label><input class="questao3" type="radio" name="q3">C) Pelo telefone</label><br>
+      </fieldset>
+    </div> <br>
 
-            <button class="botao botao-quiz" data-resposta="2">RESPONDER</button>
-        </fieldset>
-
-    </div>
+    <button class="botao botaoVerificar" onclick="verificar()">
+      Verificar Respostas
+    </button>
     <a class="botao voltar" href="index.html">Voltar Inicio</a>
     <script src="js/game.js"></script>
-</body>
+  </body>
 </html>
